@@ -20,8 +20,8 @@ body{
 
 .centered-m{
     height: 100vh;
-    width: 95vw;
-    position: fixed;
+    width: 98vw;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,11 +29,8 @@ body{
 }
 
 .container{
-    height: 80vh;
-    width: 90vw;
-    background-color: blue;
-    position: fixed;
-
+    display: flex;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -41,14 +38,29 @@ body{
 
 
 .webcam-img{
-    height: 200px;
-    width: 270px;
+    padding-left: 1rem;
     color: white;
 }
 
 .img-size{
-    height: 123px;
-    width: 195px;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    height: 150px;
+    width: 245px;
+    margin-bottom: .5rem;
+
+}
+
+.block{
+    position: relative;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.pinco{
+    position: relative;
+    top: 82%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);;
+    width: 100px;
+    height: 20px;
 }
