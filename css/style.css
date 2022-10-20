@@ -42,8 +42,9 @@ body{
 
 
 .webcam-img{
-    padding-left: 1rem;
     color: white;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .img-size{
